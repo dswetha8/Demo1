@@ -1,11 +1,11 @@
-name: Demo1
+name: Demo11
 
 on: 
   schedule:
     - cron: "* * * * *"
 
 jobs:
-  init:
+  initiliaze:
     runs-on: windows-latest
     steps:
       - name: Run a one-line script
