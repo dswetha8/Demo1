@@ -2,7 +2,7 @@ name: Demo
 
 on: 
   schedule:
-    - cron: '*/5 1-23/2 23 * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   init:
