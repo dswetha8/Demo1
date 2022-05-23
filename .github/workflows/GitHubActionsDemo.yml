@@ -1,8 +1,8 @@
 name: Demo
 
-on: push
-# schedule:
-# - cron: '*/15 * * * *'
+on: 
+  schedule:
+  - cron: '48 4 23 5 1'
 
 jobs:
   init:
