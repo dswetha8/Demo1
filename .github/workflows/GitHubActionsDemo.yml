@@ -1,13 +1,12 @@
-name: Demo
+name: Demo11
 
-# on: push
-  # workflow_dispatch:
-  # schedule:
-    # - cron: "*/2 * * * *"
+on: 
+  schedule:
+    - cron: "* * * * *"
 
 jobs:
-  init:
+  initiliaze:
     runs-on: windows-latest
     steps:
       - name: Run a one-line script
-        run: Echo "HelloWorld!!First script is sucess!!!!!!:-)"
+        run: Echo "HelloWorld!!"
